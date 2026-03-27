@@ -8,21 +8,21 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --navy: #0B1E3D;
-    --navy-mid: #142A52;
-    --blue: #1A56A0;
-    --blue-light: #2E7DD1;
-    --gold: #C6922A;
-    --gold-light: #E8B84B;
-    --cream: #F5F0E8;
-    --cream-dark: #EAE3D6;
-    --white: #FFFFFF;
-    --text-dark: #0B1E3D;
-    --text-mid: #3A4F6A;
-    --text-light: #6B7F99;
-    --red: #C0392B;
-    --green: #1A6B45;
-  }
+  --navy: #0B5E3C;
+  --navy-mid: #0E6F47;
+  --blue: #007A53;
+  --blue-light: #2FA36B;
+  --gold: #F2A900;
+  --gold-light: #FFC83D;
+  --cream: #F5F7F6;
+  --cream-dark: #E6ECE9;
+  --white: #FFFFFF;
+  --text-dark: #1A2B24;
+  --text-mid: #4B5F57;
+  --text-light: #7A8F87;
+  --red: #C0392B;
+  --green: #007A53;
+}
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -41,6 +41,7 @@
   nav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     background: var(--navy);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     padding: 0 2rem;
     display: flex; align-items: center; justify-content: space-between;
     height: 56px;
@@ -85,7 +86,7 @@
   /* ─── HERO ─── */
   .hero {
     margin-top: 56px;
-    background: var(--navy);
+    background: linear-gradient(135deg, #006341, #004B30);
     position: relative;
     overflow: hidden;
     padding: 5rem 2rem 4rem;
